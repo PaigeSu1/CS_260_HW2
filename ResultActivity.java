@@ -71,33 +71,3 @@ public class ResultActivity extends AppCompatActivity {
 
 
 
-
-
-    //Need to do something to fix the problem having infinity in the BMI
-    //Some logic is wrong that is present within the if statement
-    //fix the button text color, and size on the word of compute in activity main
-    //ordering problem that is present within this file
-
-
-
-    /*
-    //Change this piece of code to be public
-    public double getBmi() {
-        Intent intent = getIntent();
-
-        //height in feet
-        int feet = intent.getIntExtra("Feet", 0);
-        //height in inches
-        int inches = intent.getIntExtra("Inches", 0);
-        //weight in pounds
-        double weight = intent.getDoubleExtra("weight", 0);
-
-
-        // Convert height to total inches
-        int totalInches = (feet * 12) + inches;
-
-        //BMI Formula BMI = (weight in pounds) / (height in inches)^2 * 703
-        return (weight / (totalInches * totalInches)) * 703;
-    }
-    */
-
